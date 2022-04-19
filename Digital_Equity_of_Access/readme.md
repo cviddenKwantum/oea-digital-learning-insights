@@ -1,12 +1,60 @@
 # Digital Learning Insights Package: Equity of Access
+The OEA Digital Equity of Access Package provides a set of assets which support an education system in developing their own dashboard model to address equity of digital access. There are two main components of this package:
+
+1. <ins>Guidance and documentation:</ins> The [OEA Chronic Absenteeism Package - Use Case Documentation](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/OEA%20Chronic%20Absenteeism%20Package%20-%20Use%20Case%20Documentation.pdf) provides guidance on the end-to-end process of developing a successful Chronic Absenteeism use case project, including how to engage stakeholders in the project, prior research on the use case problem domain and theory, how to map data sources to the theory of the problem, and how to implement Microsoft’s Principles of Responsible Data and AI in the process of predictive modelling. <em> It is highly recommended this document be reviewed by any education system considering using this package, and that the documentation be revised to the specific data and decisions for that system’s context.  </em>
+2. <ins>Technical assets:</ins> Various assets are freely available in this package to help accelerate implementation of Chronic Absenteeism use cases. Assets include descriptions of data sources, notebooks for data processing, a pipeline for ML model building and deployment, and sample PowerBI dashboards. See descriptions of technical assets below.
+
+This OEA Package was developed through a partnership between Microsoft Education, [Kwantum Analytics](https://www.kwantumanalytics.com/), and [Fresno Unified School District](https://www.fresnounified.org/) in Fresno, California.
 
 ## Problem Statement
 
+<strong><em>\[EDIT\]</strong></em>
+
+Chronic absenteeism is generally defined as a student missing 10% or more of a school year. Student absenteeism is a fundamental challenge for education systems which has increased as result of the global pandemic. There is a growing body of research (see [Use Case Documentation](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/OEA%20Chronic%20Absenteeism%20Package%20-%20Use%20Case%20Documentation.pdf)) substantiating what most parents and teachers have long believed to be true: School truancy undermines the growth and development of students. Students with more school absences have lower test scores and grades, a greater chance of dropping out of school, and higher odds of future unemployment. Absent students also exhibit greater behavioral issues, including social disengagement and alienation. The most recent national estimates in the US suggest that approximately 5–7.5 million students, out of a K–12 population of approximately 50 million, are missing at least 1 cumulative month of school days in a given academic year, translating into an aggregate 150–225 million days of instruction lost annually.
+
+Machine learning models offer the potential to find patterns of absenteeism across student attendance patterns, class engagement, academic achievement, demographics, social-emotional measures and more. Predictions of students at risk of becoming chronically absent allows for targeted support of these students.  A predictive model can be used to precisely focus resources to support students who are on the trajectory of chronic absenteeism, identify the best interventions to prevent absenteeism, and ultimately reduce absenteeism.  
+
 ## Package Impact
+
+This package was developed in collaboration with [Fresno Unified School District](https://www.fresnounified.org/) in Fresno, California. 
+
+In general, this package can be used by system or institutional leaders, school, or department leaders, support staff, and educators to:
+ - <strong>\[TO BE EDITED\]</strong>
+
+See below for examples of developed PowerBI dashboards.
+
+Quality of student digital access  | [TO BE FILLED IN] | [TO BE FILLED IN]
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Dashboard%20Overview.png)  |  ![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Drivers%20Dashboard.png) | ![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Social%20Worker%20Dashboard.png)
 
 ## Data Sources
 
+This package combines multiple data sources which were identified through evaluating the characteristics of digital equity: 
+* School Information System (SIS): Attendance, school, grade level, and demographics
+* Barriers to students: Financial status, connectivity behavior, and digital access
+* Device Assignment data: Device information, student assignment
+* Connectivity data: Upload/Download speed, latency, request processing time, etc.
+* Engagement data: School attendance, digital engagement
+
+This package can use several [OEA Modules](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules) to help ingest data sources that are typically used to understand patterns of digital inequity (see below for list of relevant OEA modules).  
+
+| OEA Module | Description |
+| --- | --- |
+| [Ed-Fi Data Standards](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Education_Data_Standards/Ed-Fi) | For typical Student Information System (SIS) data, including detailed student attendance, demographic, digital activity, and academic data. |
+| [Connectivity Data](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data) | Such as [MyQoI](), or [Microsoft Graph](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data/Microsoft_Graph) (SignInAuditLogs query) data. |
+| [Digital Learning Apps and Platforms](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms) | [Clever](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms/Clever) for learning ap data and [iReady](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms/iReady) for language and math assessments and learning activities. |
 ## Package Components
+
+This Digital Equity of Access package was developed by [Kwantum Analytics](https://www.kwantumanalytics.com/) in partnership with [Fresno Unified School District](https://www.fresnounified.org/) in Fresno, California. The architecture and reference implementation for all modules is built on [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/) - with [Azure Data Lake Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) as the storage backbone, and [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) providing the role-based access control.
+
+Assets in the Digital Equity of Access package include:
+
+1. [Data](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/data): For understanding the data relationships and standardized schema mappings used for certain groups of data.
+2. [Documentation](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/docs): 
+     * [Use Case Documentation]() Maybe???
+3. [Notebooks](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/notebooks): For cleaning, processing, and curating data within the data lake.
+4. [Pipelines](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/pipelines): For a glimpse at the overarching data manipulation process (i.e. aggregation, subsetting, schema transformation, etc.), and support for PowerBI dashboards.
+5. [PowerBI](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/powerbi): For exploring, visualizing, and deriving insights from the data.
 
 # Legal Notices
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE](https://github.com/microsoft/OpenEduAnalytics/blob/main/LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE](https://github.com/microsoft/OpenEduAnalytics/blob/main/LICENSE-CODE) file.
