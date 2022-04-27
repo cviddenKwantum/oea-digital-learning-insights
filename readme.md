@@ -2,7 +2,7 @@
 
 This collection of OEA Digital Learning Packages contains technical resources for a variety of common education use cases, centered around supporting student learning based on inequities seen in access, engagement, well-being and learning outcomes. Depending on context, students may require additional support from ensuring equity of digital access (e.g. checking out digital equipment), to support centered around attendance and digital engagement inside and outside of school. The OEA community has identified four primary categories of significant digital learning insights that are needed in both primary, secondary and post-secondary education systems.
 
-![alt text](https://github.com/cstohlmann/oea-digital-equity/blob/main/images/Digital%20Learning%20Insights%20Packages.png)
+![alt text](https://github.com/cstohlmann/oea-digital-learning-insights/blob/main/images/Digital%20Learning%20Insights%20Packages.png)
 
 The OEA packages in this collection can be used to set up the data resources, stakeholder engagement, and dashboards that can identify trends in student learning activities, expectations, and intervention-method successes. These dashboards can help education systems and schools understand categorical breakdowns of student learning (i.e. categories can include school, student demographics, grades, signals inside or outside of school, etc).
 
@@ -12,13 +12,13 @@ Each use case package includes Use Case Documentation that provides guidance on 
 
 The table below describes the use-cases that can be addressed through the OEA Digital Learning Insights packages.
 
-| [Digital Equity of Access](https://github.com/cstohlmann/oea-digital-equity/tree/main/Digital_Equity_of_Access) | [Digital Engagement](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Engagement) | [Student Well-Being](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Student_Wellness) | [Student Digital Learning](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Student_Digital_Learning) |
-| --- | --- | --- | --- |
-| Equity - identifying students who do not have quality digital learning access outside school | Present patterns of digital engagement across digital learning ecosystem (all apps and learning resources), relative to access | Patterns of student well-being, (i.e. social-emotional competencies) | Show relationship between app-use and learning outcomes (assessment, knowledge checks, grades, completion/graduation, skills) |
-| Identify locations that need better connectivity | Predict patterns of digital engagement to notify educators and schools of potential dis-engagement | Show relationship between access, engagement, learning and well-being | Identify and predict where student academic declines (at-risk) may happen | 
-| Predict costs of ensuring equity of maintaining access to digital learning (devices + connectivity) | Identify work \& engagement patterns of staff who are working remotely | Well-being interventions tracking \& <em>de-stigmatizing mental health (may be at risk)</em> | Personalization - metadata on curriculum resources |
-| | Hybrid engagement (physical attendance + digital engagement) |  | Recommendations to teachers on curriculum areas / apps |
-|  | Student and staff digital activity during and outside of school hours by location (in school or out of school) |  |  |
+| [Digital Equity of Access](https://github.com/cstohlmann/oea-digital-equity/tree/main/Digital_Equity_of_Access) | [Digital Engagement](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Engagement) | [Student Digital Learning](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Student_Digital_Learning) |
+| --- | --- | --- |
+| Equity - identifying students who do not have quality digital learning access outside school | Present patterns of digital engagement across digital learning ecosystem (all apps and learning resources), relative to access  | Show relationship between app-use and learning outcomes (assessment, knowledge checks, grades, completion/graduation, skills) |
+| Identify locations that need better connectivity | Predict patterns of digital engagement to notify educators and schools of potential dis-engagement | Identify and predict where student academic declines (at-risk) may happen | 
+| Predict costs of ensuring equity of maintaining access to digital learning (devices + connectivity) | Identify work \& engagement patterns of staff who are working remotely | Personalization - metadata on curriculum resources |
+| | Hybrid engagement (physical attendance + digital engagement) | Recommendations to teachers on curriculum areas / apps |
+|  | Student and staff digital activity during and outside of school hours by location (in school or out of school) | |
 
 
 ## Data Requirements (and OEA modules)
