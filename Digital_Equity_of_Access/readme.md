@@ -1,7 +1,7 @@
 # Digital Learning Insights Package: Equity of Digital Access
-The OEA Digital Equity of Access Package provides a set of assets which support an education system in developing their own dashboard model to address trends of (in)equities with digital access. There are two main components of this package:
+The OEA Digital Equity of Access Package provides a set of assets which support an education system in developing their own data solution to address inequities in digital access. There are two main components of this package:
 
-1. <ins>Guidance and documentation:</ins> The [OEA Equity of Digital Access Package - Documentation](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/docs) provides guidance on the end-to-end process of developing a successful Equity of Access use-case project, including how to engage stakeholders in the project, prior research on the use case problem domain and theory, how to map data sources to the theory of the problem, and how to implement Microsoft’s Principles of Responsible Data modelling. <em> It is highly recommended this document be reviewed by any education system considering using this package, and that the documentation be revised to the specific data and decisions for that system’s context.  </em>
+1. <ins>Guidance and documentation:</ins> The [OEA Equity of Digital Access Package - Documentation](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/docs) provides guidance on the end-to-end process of developing a successful Equity of Access use-case project, including how to engage stakeholders in the project, prior research on the use case problem domain and theory, how to map data sources to the theory of the problem, and how to implement Microsoft’s Principles of Responsible Data and AI. <em> It is highly recommended this document be reviewed by any education system considering using this package, and that the documentation be revised to the specific data and decisions for that system’s context. </em>
 2. <ins>Technical assets:</ins> Various assets are freely available in this package to help accelerate implementation of Equity of Digital Access use cases. Assets include descriptions of data sources, notebooks for data processing, a pipeline for the OEA-standard data curation (i.e. aggregation, schema transformation, etc), and sample PowerBI dashboards. See descriptions of technical assets below.
 
 This OEA Package was developed through a partnership between Microsoft Education, [Kwantum Analytics](https://www.kwantumanalytics.com/), and [Fresno Unified School District](https://www.fresnounified.org/) in Fresno, California.
@@ -25,7 +25,7 @@ In general, this package can be used by system or institutional leaders, school,
 
 See below for examples of developed PowerBI dashboards.
 
-Quality of student digital access  | [TO BE FILLED IN] | [TO BE FILLED IN]
+Student Digital Access (Overview)  | Student Digital Access (Demographics) | Student Digital Access (Location)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Dashboard%20Overview.png)  |  ![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Drivers%20Dashboard.png) | ![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Social%20Worker%20Dashboard.png)
 
@@ -43,7 +43,7 @@ This package can use several [OEA Modules](https://github.com/microsoft/OpenEduA
 | OEA Module | Description |
 | --- | --- |
 | [Ed-Fi Data Standards](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Education_Data_Standards/Ed-Fi) | For typical Student Information System (SIS) data, including detailed student attendance, demographic, digital activity, and academic data. |
-| [Connectivity Data](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data) | Such as [MyQoI](), or [Microsoft Graph](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data/Microsoft_Graph) (SignInAuditLogs query) data. |
+| [Connectivity Data](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data) | Such as [Microsoft Graph](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data/Microsoft_Graph) (SignInAuditLogs query) data. |
 | [Digital Learning Apps and Platforms](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms) | [Clever](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms/Clever) for learning ap data and [iReady](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms/iReady) for language and math assessments and learning activities. |
 ## Package Components
 
