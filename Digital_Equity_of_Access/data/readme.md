@@ -20,7 +20,7 @@ The data sources most frequently needed and used for developing insights into Di
 
 <strong><em>\[EDIT\]</strong></em>
 
-For the Digital Equity of Access Use-Case developed with _____, several OEA modules were used:
+For the Digital Equity of Access Use-Case developed with Fresno Unified, several OEA modules were used:
 1. Student Information System (SIS) Data module using Ed-Fi Data Standard Module,
 2. Microsoft Education Insights Module for LMS Data,
 3. iReady for student outcome data, and
