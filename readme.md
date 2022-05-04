@@ -1,6 +1,6 @@
 # OEA Digital Learning Insights Packages
 
-This collection of OEA Digital Learning Packages contains technical resources for a variety of common education use cases, centered around supporting student learning based on inequities seen in access, engagement and learning outcomes. Depending on context, students may require additional support from ensuring equity of digital access (e.g. checking out digital equipment), to support centered around attendance and digital engagement inside and outside of school. The OEA community has identified four primary categories of significant digital learning insights that are needed in both primary, secondary and post-secondary education systems.
+This collection of OEA Digital Learning Packages contains technical resources for a variety of common education use cases, centered around supporting student learning based on inequities seen in access, engagement and learning outcomes. Depending on context, students may require additional support from ensuring equity of digital access (e.g. checking out digital equipment), to support centered around attendance and digital engagement inside and outside of school. The OEA community has identified three primary categories of significant digital learning insights that are needed in both primary, secondary and post-secondary education systems.
 
 ![alt text](https://github.com/cstohlmann/oea-digital-learning-insights/blob/main/images/Digital%20Learning%20Insights%20Packages2.png)
 
