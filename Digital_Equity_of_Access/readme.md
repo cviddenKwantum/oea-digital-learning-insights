@@ -8,10 +8,10 @@ This OEA Package was developed through a partnership between Microsoft Education
 
 ## Problem Statement
 
-Equity of digital access is generally defined as the determination of whether a particular demographic of the student population is digitally disadvantaged. Inquity of student digital access is a fundamental challenge for education systems which has dramatically increased as result of the global pandemic. The motivation for this problem comes from a central idea of researching whether general digital accessibility is a primary factor of student learning outcomes (and indicators such as tests), specifically: How the lack of access to the necessary tools within a class can undermine the growth and learning of students. <strong>[SAMPLE IDEA]</strong> Students with less availability and access to digital forms of learning are frequently seen to struggle in school, a greater chance of not attending school, and higher odds of failing classes. 
+Equity of digital access is generally defined as the determination of whether a particular demographic of the student population is digitally disadvantaged. Inequity of student digital access is a fundamental challenge for education systems which has dramatically increased as result of the global pandemic. The motivation for this problem comes from a central idea of researching whether general digital accessibility is a primary factor of student learning outcomes (and indicators such as tests), specifically: How the lack of access to the necessary tools within a class can undermine the growth and learning of students. <strong>[SAMPLE IDEA]</strong> Students with less availability and access to digital forms of learning are frequently seen to struggle in school, a greater chance of not attending school, and higher odds of failing classes. 
 
 
-Consequent data analysis and identifying trends of low access, heavily rely on connectivity data as well as SIS data (i.e. school roster, student demographics and attendance data). The subsequent dashboard used to model this analysis and trends can be used to focus on areas of intevention methods of granting students digital access, with the goal of increasing student engagement, wellness, and access to tools.
+Consequent data analysis and identifying trends of low access, heavily rely on connectivity data as well as SIS data (i.e. school roster, student demographics and attendance data). The subsequent dashboard used to model this analysis and trends can be used to focus on areas of intervention methods of granting students digital access, with the goal of increasing student engagement, wellness, and access to tools.
 
 ## Package Impact
 
@@ -32,20 +32,18 @@ Student Digital Access (Overview)  | Student Digital Access (Demographics) | Stu
 ## Data Sources
 
 This package combines multiple data sources which were identified through evaluating the characteristics of digital equity: 
-* School Information System (SIS): Attendance, school, grade level, and demographics
+* School Information System (SIS): School, grade level, and demographics
 * Barriers to students: Financial status, connectivity behavior, and digital access
 * Device Assignment data: Device information, student assignment
 * Connectivity data: Upload/Download speed, latency, request processing time, etc.
-* Engagement data: School attendance, digital engagement
+* Attendance data: Digital attendance
 
 This package can use several [OEA Modules](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules) to help ingest data sources that are typically used to understand patterns of digital inequity (see below for list of relevant OEA modules).  
 
 | OEA Module | Description |
 | --- | --- |
-| [Ed-Fi Data Standards](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Education_Data_Standards/Ed-Fi) | For typical Student Information System (SIS) data, including detailed student attendance, demographic, digital activity, and academic data. |
+| [Ed-Fi Data Standards](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Education_Data_Standards/Ed-Fi) | For typical Student Information System (SIS) data, including school rosters, grade level and demographic information. |
 | [Connectivity Data](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data) | Such as [Microsoft Graph](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data/Microsoft_Graph) (SignInAuditLogs query) data. |
-| [Digital Learning Apps and Platforms](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms) | [Clever](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms/Clever) for learning ap data and [iReady](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Digital_Learning_Apps_and_Platforms/iReady) for language and math assessments and learning activities. |
-## Package Components
 
 This Digital Equity of Access package was developed by [Kwantum Analytics](https://www.kwantumanalytics.com/) in partnership with [Fresno Unified School District](https://www.fresnounified.org/) in Fresno, California. The architecture and reference implementation for all modules is built on [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/) - with [Azure Data Lake Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) as the storage backbone, and [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) providing the role-based access control.
 
@@ -54,8 +52,8 @@ Assets in the Digital Equity of Access package include:
 1. [Data](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/data): For understanding the data relationships and standardized schema mappings used for certain groups of data.
 2. [Documentation](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/docs): For understanding how to deploy this package within your own context and interpret the results.
 3. [Notebooks](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/notebooks): For cleaning, processing, and curating data within the data lake.
-4. [Pipelines](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/pipelines): For a glimpse at the overarching data manipulation process (i.e. aggregation, subsetting, schema transformation, etc.), and support for PowerBI dashboards.
-5. [PowerBI](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/powerbi): For exploring, visualizing, and deriving insights from the data.
+4. [Pipelines](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/pipelines): For a glimpse at the overarching data manipulation process (i.e., aggregation, subsetting, schema transformation, etc.), and support for PowerBI dashboards.
+5. [PowerBI](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/powerbi): Templates for exploring, visualizing, and deriving insights from the data.
 
 # Legal Notices
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE](https://github.com/microsoft/OpenEduAnalytics/blob/main/LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE](https://github.com/microsoft/OpenEduAnalytics/blob/main/LICENSE-CODE) file.
