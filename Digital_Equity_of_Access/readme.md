@@ -11,7 +11,7 @@ This OEA Package was developed through a partnership between Microsoft Education
 Equity of digital access is generally defined as the determination of whether a particular demographic of the student population is digitally disadvantaged. Inequity of student digital access is a fundamental challenge for education systems which has dramatically increased as result of the global pandemic. The motivation for this problem comes from a central idea of researching whether general digital accessibility is a primary factor of student learning outcomes (and indicators such as tests), specifically: How the lack of access to the necessary tools within a class can undermine the growth and learning of students. Students with less availability and access to digital forms of learning are frequently seen to struggle in school, a greater chance of not attending school, and higher odds of failing classes. 
 
 
-Consequent data analysis and identifying trends of low access, heavily rely on connectivity data as well as SIS data (i.e. school roster, student demographics and attendance data). The subsequent dashboard used to model this analysis and trends can be used to focus on areas of intervention methods of granting students digital access, with the goal of increasing student engagement, wellness, and access to tools.
+Data analyses and identifying trends of low access, heavily rely on connectivity data as well as SIS data (i.e. school roster, student demographics and attendance data). The subsequent dashboard used to model this analysis and trends can be used to focus on areas of intervention methods of granting students digital access, with the goal of increasing student engagement, wellness, and access to tools.
 
 ## Package Impact
 
