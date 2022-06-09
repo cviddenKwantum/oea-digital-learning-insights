@@ -1,6 +1,9 @@
 # Package Documentation
 ## General Documentation
-The current assets located within this package are used to tailor an education system's form of connectivity data (data used to assess student access/connectivity), along with student device assignment data (i.e. if devices are checked out by students), and SIS/education system roster data. 
+The current assets located within this package are used to tailor an education system's form of access/connectivity data (data used to assess student access/connectivity), along with student device assignment data (i.e. if devices are checked out by students), and SIS/education system roster data. 
+
+Currently, as this package stands, there isn't a module that supports access/connectivity used by an education institution. Rather, this package is to be used as guidance for how assets were created, and understanding of the dashboard pages. As modules are created, this package will be updated to account for sources of access/connectivity data. 
+
 ## Package Asset Use Instructions
 The Digital Equity of Access Package provides multiple assets to help accelerate the implementation of digital access analysis in education, specific to equity of access.
 
