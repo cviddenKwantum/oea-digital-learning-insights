@@ -17,11 +17,11 @@ As this package stands, currently there is not a module to support the connectiv
 ## Power BI Data Model
 
 Below is a view of the data model used in Power BI visualizations. The primary tables and relationships can be seen.
-* **model_pbi Table**: Data used to train predictive model and model results.
-* **studentattendanceaggregate Table**: Time dependent records of student attendance.
-* **model_log Table**: Log of all model assessment results used for model development.
-* **attendancegroups Table**: Grouping of attendance codes.
-* **school_location Table**: School locations for visualizations.
-* Various order and recoding tables.
+* **Destiny_Identity Table**: Data used to relay student device assignment by the education system.
+* **myQoI_SIS_Identity_Groups Table**: Time dependent records of student connectivity data joined with SIS demographics data.
+* **Identity_Maps Table**: Connects student IDs with other, synonymous, student IDs.
+* **SIS_StudentSchool Table**: Connects student IDs to the schools they attend.
+* **SIS_StaffStudentMap Table**: Data used to connect students with their current class(es)/teacher(s).
+* Various other tables including: school locations, etc.
 
 ![](https://github.com/cstohlmann/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/PowerBiDataModel.png)
