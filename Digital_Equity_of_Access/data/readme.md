@@ -24,4 +24,4 @@ Below is a view of the data model used in Power BI visualizations. The primary t
 * **school_location Table**: School locations for visualizations.
 * Various order and recoding tables.
 
-![](https://github.com/microsoft/OpenEduAnalytics/blob/9cdecd763c0c05a32276bc64e991ed7d068e8f3b/packages/Chronic_Absenteeism/docs/images/powerBiDataModel.png)
+![](https://github.com/cstohlmann/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/PowerBiDataModel.png)
