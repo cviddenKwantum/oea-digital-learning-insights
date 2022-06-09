@@ -1,27 +1,27 @@
 # Data Dependencies
 
-This section of the package provides details regarding the schema changes made during data curation for the Power BI dashboard, 
-and how other data sources or modules can be modified and used in place of other modules used out-of-the-box.
+This package combines multiple data sources which were identified through the concepts of using student information data 
 
- - <strong>(Current) schema changes to be noted:</strong> 
- - <strong>Module/Data source initially used:</strong>
- - <strong>Data products created:</strong> 
+* **School Information System (SIS)**: Student school, grade, roster, and demographics data
+* **Barriers to students**: Financial status, connectivity behavior, and digital access
+* **Device Assignment**: Device information, student assignment
+* **Access/Connectivity data**: Upload/Download speed, latency, request processing time, etc.
+* **Attendance data**: Digital attendance
 
-<strong><em>[CONSIDER ADDING PICTURE OF SCHEMA/COLUMN MAPPINGS]</strong></em>
+## Digital Access/Connectivity Data
 
-## Module/Data Source Dependencies
-The data sources most frequently needed and used for developing insights into Digital Equity of Access include:
- - SIS or MS Data: Attendance, school, department, course rosters, class's subject, grade level, student behavior, and demographics as needed
- - Device Signal (AAD / Intune / SCCM / Mobile Device Management + Inventory System)
- - Internet performance & location (GPS coordinates or Public IP address) MS Graph source? Global: check with MS Airband
- - Platform & App signals (Clever, MS Graph, Edu Insights, iReady) - Caliper standard
- - Time of day relative to school hours - timestamp
- - Location of use (in school/out of school) - schools (Ed-Fi)
+To quantify student digital access inside and outside of school, digital signals considered are variable. Values were filtered by ISP (Internet service provider), to account for whether the access signal collected was from inside or outside of school.
 
-<strong><em>\[EDIT\]</strong></em>
+As this package stands, currently there is not a module to support the connectivity data used in production of this package.
 
-For the Digital Equity of Access Use-Case developed with Fresno Unified, several OEA modules were used:
-1. Student Information System (SIS) Data module using Ed-Fi Data Standard Module,
-2. Microsoft Education Insights Module for LMS Data,
-3. iReady for student outcome data, and
-4. Clever for other digital learning app use data.
+## Power BI Data Model
+
+Below is a view of the data model used in Power BI visualizations. The primary tables and relationships can be seen.
+* **model_pbi Table**: Data used to train predictive model and model results.
+* **studentattendanceaggregate Table**: Time dependent records of student attendance.
+* **model_log Table**: Log of all model assessment results used for model development.
+* **attendancegroups Table**: Grouping of attendance codes.
+* **school_location Table**: School locations for visualizations.
+* Various order and recoding tables.
+
+![](https://github.com/microsoft/OpenEduAnalytics/blob/9cdecd763c0c05a32276bc64e991ed7d068e8f3b/packages/Chronic_Absenteeism/docs/images/powerBiDataModel.png)
