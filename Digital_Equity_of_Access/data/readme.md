@@ -3,10 +3,9 @@
 This package combines multiple data sources which were identified through the concepts of using student information data 
 
 * **School Information System (SIS)**: Student school, grade, roster, and demographics data
+* **Access/Connectivity data**: Upload/Download speed, latency, request processing time, etc.
 * **Barriers to students**: Financial status, connectivity behavior, and digital access
 * **Device Assignment**: Device information, student assignment
-* **Access/Connectivity data**: Upload/Download speed, latency, request processing time, etc.
-* **Attendance data**: Digital attendance
 
 ## Digital Access/Connectivity Data
 
