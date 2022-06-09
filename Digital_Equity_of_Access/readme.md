@@ -33,10 +33,10 @@ Student Digital Access (Overview)  | Student Digital Access (Demographics) | Stu
 
 This package combines multiple data sources which were identified through evaluating the characteristics of digital equity: 
 * <strong>School Information System (SIS)</strong>: School, grade level, and demographics
+* <strong>Access/Connectivity data</strong>: Upload/Download speed, latency, request processing time, etc.
 * <strong>Barriers to students</strong>: Financial status, connectivity behavior, and digital access
 * <strong>Device Assignment data</strong>: Device information, student assignment
-* <strong>Access/Connectivity data</strong>: Upload/Download speed, latency, request processing time, etc.
-* <strong>Attendance data</strong>: Digital attendance
+
 
 This package can use several [OEA Modules](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules) to help ingest data sources that are typically used to understand patterns of digital inequity (see below for list of relevant OEA modules).  
 
