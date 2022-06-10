@@ -17,7 +17,7 @@ In the development with this package, MyQoI was used as this source of connectiv
 * <em>Download Speeds</em> less than or equal to 25 Mbps, and
 * <em>Upload Speeds</em> less than or equal to 3 Mbps.
 
-This definition can vary across education institutions, and can be changed to be incorporated in the dashboard.
+This definition can vary across education institutions, and can be incorporated in the dashboard.
 
 ## Device Assignment Data
 
