@@ -13,7 +13,7 @@ To quantify student digital access inside and outside of school, the digital sig
 
 As this package stands, currently there is not a module to support the connectivity data used in production of this package.
 
-In the development with this package, MyQoI was used as this source of connectivity. Due to privacy concerns contained within the data from MyQoI, access signals from students were associated with the schools that any particular student was attending, thus not infringing on the privacy of those students. MyQoI provides a few different metrics that could have used for defining "low quality access connectivity" (e.g. latency of the access signal), and, within the development of this package, was explicitly defined as students with: 
+In the development with this package, MyQoI was used as this source of connectivity. Due to privacy concerns contained within the data from MyQoI, access signals from students were associated with the schools that any particular student was attending, thus not infringing on the privacy of those students. MyQoI provides a few different metrics that could have used for defining "low quality access connectivity" (e.g. latency of the access signal), and, within the development of this package, was explicitly defined as student-access signals with: 
 * <em>Download Speeds</em> less than or equal to 25 Mbps, and
 * <em>Upload Speeds</em> less than or equal to 3 Mbps.
 
