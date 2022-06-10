@@ -1,11 +1,11 @@
 # Data Dependencies
 
-This package combines multiple data sources which were identified through the concepts of using student information data 
+This package combines multiple data sources which were identified through answering concepts surrounding student accessibility:
 
 * **School Information System (SIS)**: Student school, grade, roster, and demographics data
 * **Access/Connectivity data**: Upload/Download speed, latency, request processing time, etc. of log-ins
-* **Barriers to students**: Financial status, connectivity behavior, and digital access
-* **Device Assignment**: Device information, student assignment
+* **Barriers to students**: Financial status, connectivity behavior, and lack of digital access
+* **Device Assignment**: Device information, student assignment.
 
 ## Digital Access/Connectivity Data
 
