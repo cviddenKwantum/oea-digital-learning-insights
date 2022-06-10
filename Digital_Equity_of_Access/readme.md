@@ -20,7 +20,7 @@ In general, this package can be used by system or institutional leaders, school,
  - <em>Accurately identify</em> demographic breakdowns in student (in)equity to digital access.
  - <em>Outline trends</em> in student log-ins and proportionate "low quality access" log-in attempts. 
  - <em>Understand location factors</em> of "low quality access" attempts in a safe manner.
- - <em>Provide granular context</em> to student engagement behaviors.
+ - <em>Provide granular context</em> to student access behaviors.
 
 See below for examples of developed PowerBI dashboards.
 
