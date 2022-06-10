@@ -33,7 +33,7 @@ Student Digital Access (Overview)  | Student Digital Access (Demographics) | Stu
 This package combines multiple data sources which were identified through evaluating the characteristics of digital equity: 
 * <strong>School Information System (SIS)</strong>: School, grade level, and demographics
 * <strong>Access/Connectivity data</strong>: Upload/Download speed, latency, request processing time, etc.
-* <strong>Barriers to students</strong>: Financial status, connectivity behavior, and digital access
+* <strong>Barriers to students</strong>: Financial status, connectivity behavior, and lack of digital access
 * <strong>Device Assignment data</strong>: Device information, student assignment
 
 
