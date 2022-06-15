@@ -43,11 +43,11 @@ This Digital Equity of Access package was developed by [Kwantum Analytics](https
 
 Assets in the Digital Equity of Access package include:
 
-1. [Data](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/data): For understanding the data relationships and standardized schema mappings used for certain groups of data.
-2. [Documentation](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/docs): For understanding how to deploy this package within your own context and interpret the results.
-3. [Notebooks](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/notebooks): For cleaning, processing, and curating data within the data lake.
-4. [Pipelines](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/pipelines): For a glimpse at the overarching data manipulation process (i.e., aggregation, subsetting, schema transformation, etc.), and support for PowerBI dashboards.
-5. [PowerBI](https://github.com/cstohlmann/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/powerbi): Templates for exploring, visualizing, and deriving insights from the data.
+1. [Data](https://github.com/cviddenKwantum/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/data): For understanding the data relationships and standardized schema mappings used for certain groups of data.
+2. [Documentation](https://github.com/cviddenKwantum/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/docs): [OEA Equity of Digital Access Package - Use Case Documentation](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/69dc247874cdec4aeac389a54d38d99d112e9a92/Digital_Equity_of_Access/docs/OEA%20Digital%20Learning%20Package%20-%20Access%20Use%20Case.pdf). 
+3. [Notebooks](https://github.com/cviddenKwantum/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/notebooks): For cleaning, processing, and curating data within the data lake.
+4. [Pipelines](https://github.com/cviddenKwantum/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/pipelines): For the overarching data processing (i.e., aggregation, subsetting, schema transformation, etc.), and support for PowerBI dashboards.
+5. [PowerBI](https://github.com/cviddenKwantum/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/powerbi): For exploring, visualizing, and deriving insights from the data.
 
 # Legal Notices
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE](https://github.com/microsoft/OpenEduAnalytics/blob/main/LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE](https://github.com/microsoft/OpenEduAnalytics/blob/main/LICENSE-CODE) file.
