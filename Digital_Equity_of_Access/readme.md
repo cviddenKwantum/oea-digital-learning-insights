@@ -14,13 +14,7 @@ Education systems seeking to close digital equity gaps need to use limited resou
 
 ## Package Impact
 
-This package was developed in collaboration with [Fresno Unified School District](https://www.fresnounified.org/) in Fresno, California. 
-
-In general, this package can be used by system or institutional leaders, school, or department leaders, support staff, and educators to:
- - <em>Accurately identify</em> demographic breakdowns in student (in)equity to digital access.
- - <em>Outline trends</em> in student log-ins and proportionate "low quality access" log-in attempts. 
- - <em>Understand location factors</em> of "low quality access" attempts in a safe manner.
- - <em>Provide granular context</em> to student access behaviors.
+This use case resulted in a data dashboard that shows patterns of digital access and identifies which students have no or low connected devices outside of schools. This can allow education system leaders to target their resources (e.g. provision devices, provide internet connections) most efficiently to ensure all learners have digital access to learning outside of school. 
 
 See below for examples of developed PowerBI dashboards.
 
