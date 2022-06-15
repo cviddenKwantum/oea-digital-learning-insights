@@ -37,6 +37,8 @@ This package can use several [OEA Modules](https://github.com/microsoft/OpenEduA
 | Internet Connectivity Data | Such as [Microsoft Graph](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data/Microsoft_Graph) data. |
 | Device Assignment Data | Such as [Microsoft Intune](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data/Intune) data. |
 
+## Package Components
+
 This Digital Equity of Access package was developed by [Kwantum Analytics](https://www.kwantumanalytics.com/) in partnership with [Fresno Unified School District](https://www.fresnounified.org/) in Fresno, California. The architecture and reference implementation for all modules is built on [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/) - with [Azure Data Lake Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) as the storage backbone, and [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) providing the role-based access control.
 
 Assets in the Digital Equity of Access package include:
