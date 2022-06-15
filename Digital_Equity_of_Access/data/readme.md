@@ -4,24 +4,20 @@ This package combines multiple data sources which were identified through answer
 
 * **School Information System (SIS)**: Student school, grade, roster, and demographics data
 * **Access/Connectivity data**: Upload/Download speed, latency, request processing time, etc. of log-ins
-* **Barriers to students**: Financial status, connectivity behavior, and lack of digital access
 * **Device Assignment**: Device information, student assignment.
 
-## Digital Access/Connectivity Data
+## Digital Access and Connectivity Data
 
-To quantify student digital access inside and outside of school, the digital signals considered are subject to change depending on data provided from access/connectivity data. Values were filtered by ISP (Internet service provider), to account for whether the access signal collected was from inside or outside of school.
+To quantify student digital access inside and outside of school, the digital signals are measured from access and connectivity data. Values were filtered by ISP (Internet service provider) to account for whether the access signal collected was from inside or outside of school.
 
-As this package stands, currently there is not a module to support the connectivity data used in production of this package.
-
-In the development with this package, MyQoI was used as this source of connectivity. Due to privacy concerns contained within the data from MyQoI, access signals from students were associated with the schools that any particular student was attending, thus not infringing on the privacy of those students. MyQoI provides a few different metrics that could have used for defining "low quality access connectivity" (e.g. latency of the access signal), and, within the development of this package, was explicitly defined as student-access signals with: 
-* <em>Download Speeds</em> less than or equal to 25 Mbps, and
+In the development of this package, internet speed was measured using an app called MyQoI. This app was installed on student devices and measured upload and download speeds on a scheduled basis. IP addresses and student device locations were not recorded due to privacy concerns. Instead, each student was associated with a school which they were enrolled. Low quality of internet speed was defined as either
+* <em>Download Speeds</em> less than or equal to 25 Mbps or
 * <em>Upload Speeds</em> less than or equal to 3 Mbps.
-
-This definition can vary across education institutions, and can be incorporated in the dashboard.
+This definition can vary across education institutions.
 
 ## Device Assignment Data
 
-In the development of this package, Destiny was used as the primary data source for student-assigned device management. These devices were district-issued and contained information on: the device serial number, the type of device (e.g. laptop or tablet), the student ID the device was issued to, the status of the device, when the device was checked out, etc.
+Student devices were district-issued and maintained in a device management system named Destiny. This data includes the device serial number, the type of device (e.g. laptop or tablet), the student ID the device was issued to, the status of the device, when the device was checked out, etc.
 
 The [Intune Reports Module](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Data/Intune) can be used as an alternative to understand the patterns of accessibility of students, based on whether they've been assigned devices. Other exploratory methods of analysis can be used to see if students benefit from issuing devices, and backing suggestions for other means of intervention or student-support.
 
