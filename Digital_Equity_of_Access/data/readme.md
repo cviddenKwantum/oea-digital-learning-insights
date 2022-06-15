@@ -29,8 +29,9 @@ The [Intune Reports Module](https://github.com/microsoft/OpenEduAnalytics/tree/m
 
 Below is a view of the data model used in Power BI visualizations. The primary tables and relationships can be seen.
 * **studentPBI Table**: Most of the SIS data is contained within this table - data on student demographics, school they attend, etc.
-* **myqoi Table**: Time dependent records of student access/connectivity data.
+* **myqoiPBI Table**: Time dependent records of student access/connectivity data.
 * **studentsection Table**: Contains section SIS data - the class(es) that students are a part of.
 * **destiny Table**: Data used to relay student device assignment by the education system.
+* **school_locations Table**: Data used to create maps of school locations. 
 
-![](https://github.com/cstohlmann/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/PowerBiDataModel.png)
+![](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/pbi_datamodel.png)
