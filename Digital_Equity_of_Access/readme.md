@@ -25,11 +25,9 @@ Equity of Digital Access  | Quality of Digital Access
 ## Data Sources
 
 This package combines multiple data sources which were identified through evaluating the characteristics of digital equity: 
-* <strong>School Information System (SIS)</strong>: School, grade level, and demographics
-* <strong>Access/Connectivity data</strong>: Upload/Download speed, latency, request processing time, etc.
-* <strong>Barriers to students</strong>: Financial status, connectivity behavior, and lack of digital access
+* <strong>School Information System (SIS)</strong>: School, grade level, class roster, and demographics
+* <strong>Access/Connectivity data</strong>: Upload and download speed, latency, request processing time, internet provided
 * <strong>Device Assignment data</strong>: Device information, student assignment
-
 
 This package can use several [OEA Modules](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules) to help ingest data sources that are typically used to understand patterns of digital inequity (see below for list of relevant OEA modules).  
 
