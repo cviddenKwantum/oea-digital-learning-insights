@@ -18,9 +18,9 @@ This use case resulted in a data dashboard that shows patterns of digital access
 
 See below for examples of developed PowerBI dashboards.
 
-Student Digital Access (Overview)  | Student Digital Access (Demographics) | Student Digital Access (Location)
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Dashboard%20Overview.png)  |  ![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Drivers%20Dashboard.png) | ![](https://github.com/cstohlmann/oea-at-risk-package/blob/main/Chronic_Absenteeism/docs/images/Chronic%20Absenteeism%20Social%20Worker%20Dashboard.png)
+Equity of Digital Access  | Quality of Access
+:-------------------------:|:-------------------------:
+![](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/89ddaae04a02ffea53c68bee4b5a72ad86271c87/Digital_Equity_of_Access/docs/images/pbi1nosignal.png) |  ![](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/89ddaae04a02ffea53c68bee4b5a72ad86271c87/Digital_Equity_of_Access/docs/images/pbi1nosignal.png)
 
 ## Data Sources
 
