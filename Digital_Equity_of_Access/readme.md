@@ -16,7 +16,7 @@ Education systems seeking to close digital equity gaps need to use limited resou
 
 This use case resulted in a data dashboard that shows patterns of digital access and identifies which students have no or low connected devices outside of schools. This can allow education system leaders to target their resources (e.g. provision devices, provide internet connections) most efficiently to ensure all learners have digital access to learning outside of school. 
 
-See below for examples of developed PowerBI dashboards.
+See below for examples of developed PowerBI dashboards (see also [Power BI](https://github.com/cviddenKwantum/oea-digital-learning-insights/tree/main/Digital_Equity_of_Access/powerbi)).
 
 Equity of Digital Access  | Quality of Digital Access
 :-------------------------:|:-------------------------:
