@@ -11,6 +11,6 @@ The OEA Digital Learning Insights Package includes example Power BI dashboards w
 
 ## Landscape of Digital Access
 
-| ![Landscape of Digital Access](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/pbi1landscape.png "Landscape of Digital Access") |
+| ![Landscape of Digital Access](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/pbi2landscape.png "Landscape of Digital Access") |
 |:--:|
 | <b> Overview of low signals across the district summarized by internet service provider (ISP) and school. </b>|
