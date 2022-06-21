@@ -20,7 +20,7 @@ See below for examples of developed PowerBI dashboards.
 
 Equity of Digital Access  | Quality of Digital Access
 :-------------------------:|:-------------------------:
-![](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/89ddaae04a02ffea53c68bee4b5a72ad86271c87/Digital_Equity_of_Access/docs/images/pbi1nosignal.png) |  ![](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/89ddaae04a02ffea53c68bee4b5a72ad86271c87/Digital_Equity_of_Access/docs/images/pbi1nosignal.png)
+![](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/pbi1nosignal.png) |  ![](https://github.com/cviddenKwantum/oea-digital-learning-insights/blob/main/Digital_Equity_of_Access/docs/images/pbi2landscape.png)
 
 ## Data Sources
 
